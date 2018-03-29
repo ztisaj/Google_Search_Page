@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    font-family: 'arial', 'sans-serif';
+}
+
+                                        /* all header stuff */
+header {
+    max-height: 122px;
+    background: #FAFAFA;
+    min-width: 1100px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-top: 7px;
+    width: 100%;
+}
+
+
+.logo {
+    height: 44px;
+    width: 120px;
+    margin-top: 14px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#search {
+    height: 42px;
+    width: 605px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 14px;
+    padding-top: 3px;
+    border: 0.5px solid #ebebeb;
+    box-shadow: 0 1px 0 rgba(196,196,196,1);
+    font-family: 'arial', 'sans-serif';
+    font-size: 16px;
+    text-align: left;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    align-items: flex-end;
+    
+}
+
+.all,
+.videos,
+.images,
+.maps,
+.news,
+.more,
+.settings,
+.tools {
+    padding-top: 28px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'arial', sans-serif;
+    font-size: small;
+    color: #77777B;
+}
+ 
+.all {
+    color: #1a72e9;
+    font-weight: bolder;
+    border-bottom: solid 3px;
+    margin-left: 10px;
+}
+
+.settings,
+.tools {
+    align-self: flex-end;
+}
+
+.settings {
+    margin-left: auto;
+}
+
+
+
+                            /* first paragraph */
+
+.result {
+    font-size: small;
+    color: #808080;
+    margin-left: 160px;
+    margin-top: 14px;
+}
+                            
+                            /* kontejner za rezultate pretrage */
+
+.results {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 632px;
+    margin-left: 150px;
+    margin-right: 264px;
+    padding: 10px;
+}
+
+
+
+/* # prvi search result */
+
+a {
+    font-size: large;
+    color: #2330ab;
+    text-decoration: none;
+}
+
+p {
+    font-size: small;
+    color: #545454;
+    line-height: 18px;
+}
+
+b {
+    color: #6a6a6a;
+}
+
+.add {
+    line-height: 11px;
+    font-size: 11px;
+    font-weight: 200;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 1px 3px 0 2px; 
+}
+
+.pointer {
+    font-size: 18px;
+    margin-left: 2px;
+    line-height: 16px;
+}
+
+
+.green {
+    width: 600px;
+    height: 18px;
+    color: #326624;
+    font-size: 14px;
+}
+
+
+.ispod {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0 30px 28px;
+}
+
+.second {
+    width: 294px;
+    margin-right: 13px;
+}
+
+                /* reklama */
+
+.reklama {
+    display: block;
+    width: 632px;
+    height: 280px;
+    border: solid 1px #dfdfdf;
+    box-shadow: 0 1px 0 rgba(200,200,200,1);
+    margin-left: -20px;
+}
+
+h1 {
+    line-height: 1.2;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    white-space: pre-wrap;
+}
+
+.slikica {
+    float: right;
+    margin-left: 20px;
+}
+
+ol {
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.more_items {
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.more_link {
+    font-size: 14px;
+    color: #777;
+}
+
+.link,
+.linkic {
+    margin-left: 20px;
+}
+
+.upitnik {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 600px;
+    height: 18px;
+    color: #777;
+    font-size: 11px;
+    line-height: normal;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+ 
+.ikonice {
+    width: 14px;
+    height: 14px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+            /* other pretrage */
+
+
+.main {
+    margin-top: 15px;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.keanu {
+    color: #2330ab;
+    margin-top: 3px;
+}
+
+.time {
+    color: #808080;
+}
+
+.related {
+    color: #222;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+.rel_results {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.rel_res,
+.font_size {
+    color: #1a0dab;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 3px 0;
+}
+
+.search_icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+                        /*  FOOOOOOTER */
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 80px;
+    background-color: #f2f2f2;
+}
+
+.prvi_footer {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 40px;
+    width: 100%;
+    border-top: solid 1px #e4e4e4;
+    border-bottom: solid 1px #e4e4e4;
+    justify-content: flex-start;
+   
+}
+
+.croatia {
+    font-size: 15px;
+    line-height: 40px;
+    color: rgba(0,0,0,.54);
+    padding-right: 13px;
+    border-right: solid 1px #e4e4e4;
+    margin-left: 166px;
+}
+
+.location {
+    font-size: small;
+    color: #aaa;
+    margin-left: 13px;
+    line-height: 40px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: clip;
+
+}
+
+.loc_link {
+    font-size: small;
+    color: #777777;
+    margin-right: 0;
+    position: relative;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: clip;
+    line-height: 40px;
+}
+
+.drugi_footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    line-height: 40px;
+    margin-left: 166px;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.dfl {
+    font-size: small;
+    color: #777;
+    padding-right: 27px;
+    line-height: 40px;
+    position: relative;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: clip;
+}
